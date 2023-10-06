@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #3f3b6c;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+}
+.wrapper {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 500px;
+  background-color: #624f82;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px white;
+  cursor: not-allowed;
+}
+#time {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  background-color: #624f82;
+  color: #a3c7d6;
+  font-family: "Gabarito", cursive;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Kanit", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
